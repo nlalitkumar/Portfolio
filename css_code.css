@@ -1,0 +1,127 @@
+header{
+    background-color: rgb(51,51,51);
+    color: rgb(255,255,255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 50px;
+}
+h2{
+    color: rgb(51,51,51);
+}
+body{
+    background-color: rgb(230,230,230);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: rgd(51,51,51);
+}
+.container{
+    text-align: center;
+    padding: 40px 20px;
+}
+.about_me{
+  background-color: rgb(255,255,255);
+  padding: 30px 20px;
+  margin: auto auto;
+  border-radius: 10px;
+  max-width: 900px;
+  text-align: center;
+  font-size: 20px;
+}
+.abt{
+    text-align: center;
+}
+.Edu{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.linkedin{
+    text-align: center;
+}
+img.myimg{
+    width: 200px;
+    height: auto;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: rgb(51,51,51) 
+}
+.center2{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(51,51,51);
+}
+.Technical{
+  padding: 40px 20px;
+  background-color: rgb(255,255,255);
+  margin: auto auto;
+  margin-top: 20px;
+  max-width: 900px;
+  border-radius: 10px;
+  text-align: center;
+}
+ul.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+ul.skills li {
+  background-color: rgb(238,238,238);
+  padding: 10px 20px;
+  border-radius: 8px;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgb(255,255,255);
+    margin: auto auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+.tech_stack{
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    gap: 30px;
+}
+
+.tech_stack .tech_item{
+    text-align: center;
+    width: 100px;
+}
+
+.tech_stack .tech_item img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact{
+    max-width: 940px;
+    margin: auto auto;
+    text-align: center;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    padding-top: 40px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.contact-details{
+    text-align: left;
+    padding-left: 40px;
+}
